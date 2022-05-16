@@ -881,13 +881,6 @@ Pour être éligible au PTZ : il doit s’agir de votre premier achat en réside
 
 </div>
 
-
-
-
-
-//Seconde condition
-
-
   <div className=' bg-yellow-700 w-screen '>
   
   
