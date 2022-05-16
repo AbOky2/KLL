@@ -23,7 +23,7 @@ export default function Home() {
       </p></div>
     
       <div className='flex flex-col'>
-        <div class='flex items-center border-2 rounded-3xl py-2 shadow-sm bg-white absolute w-96'>
+        <div className='flex items-center border-2 rounded-3xl py-2 shadow-sm bg-white absolute w-96'>
               <input type='text' placeholder='Recherche'
               className='pl-5 bg-transparent outline-none flex-grow'/>
               <svg
@@ -32,22 +32,22 @@ export default function Home() {
                     viewBox="0 0 23 23"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
-                    class=" w-8 h-8 p-2 cursor-pointer inline-flex mx-2"
+                    className=" w-8 h-8 p-2 cursor-pointer inline-flex mx-2"
                     style={{background:"linear-gradient(180deg, #81A3F9 -0.06%, #3462D8 108.09%)", borderRadius:"42px"}}
                     preserveAspectRatio="xMidYMid meet">
                       <path
                         d="M9.58333 16.2917C13.2882 16.2917 16.2917 13.2882 16.2917 9.58333C16.2917 5.87842 13.2882 2.875 9.58333 2.875C5.87842 2.875 2.875 5.87842 2.875 9.58333C2.875 13.2882 5.87842 16.2917 9.58333 16.2917Z"
                         stroke="white"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                       stroke-linejoin="round"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                       strokeLinejoin="round"
                      ></path>
                      <path
                        d="M14.375 14.375L20.125 20.125"
                        stroke="white"
-                       stroke-width="2"
-                       stroke-linecap="round"
-                       stroke-linejoin="round"
+                       strokeWidth="2"
+                       strokeLinecap="round"
+                       strokeLinejoin="round"
                      ></path>
                </svg>
            </div>
@@ -78,9 +78,9 @@ export default function Home() {
         <path
           d="M33.6585 24.7013L26.6585 18.5763C26.2815 18.2464 25.7185 18.2464 25.3415 18.5763L18.3415 24.7013C18.1245 24.8912 18 25.1655 18 25.4539V34.0001C18 34.5524 18.4477 35.0001 19 35.0001H23C23.5523 35.0001 24 34.5524 24 34.0001V30.0001C24 29.4478 24.4477 29.0001 25 29.0001H27C27.5523 29.0001 28 29.4478 28 30.0001V34.0001C28 34.5524 28.4477 35.0001 29 35.0001H33C33.5523 35.0001 34 34.5524 34 34.0001V25.4539C34 25.1655 33.8755 24.8912 33.6585 24.7013Z"
           stroke="#6A7CA8"
-          stroke-width={2}
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth={2}
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </svg></div>
     
@@ -105,16 +105,16 @@ export default function Home() {
         <path
           d="M30 18H22C21.4477 18 21 18.4477 21 19V35C21 35.5523 21.4477 36 22 36H30C30.5523 36 31 35.5523 31 35V19C31 18.4477 30.5523 18 30 18Z"
           stroke="#DCC07E"
-          stroke-width={2}
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth={2}
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M26 33H26.002V33.002H26V33Z"
           stroke="#DCC07E"
-          stroke-width={2}
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth={2}
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </svg></div>
     </div>
@@ -139,44 +139,44 @@ export default function Home() {
         <path
           d="M21 35C21 33.3431 23.2386 32 26 32C28.7614 32 31 33.3431 31 35"
           stroke="#B985CC"
-          stroke-width={2}
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth={2}
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M32 29.2495C33.7659 29.7124 35 30.7697 35 31.9999"
           stroke="#B985CC"
-          stroke-width={2}
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth={2}
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M20 29.2495C18.2341 29.7124 17 30.7697 17 31.9999"
           stroke="#B985CC"
-          stroke-width={2}
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth={2}
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M26 29C27.6569 29 29 27.6569 29 26C29 24.3431 27.6569 23 26 23C24.3431 23 23 24.3431 23 26C23 27.6569 24.3431 29 26 29Z"
           stroke="#B985CC"
-          stroke-width={2}
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth={2}
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M32 25.2361C32.6137 24.6868 33 23.8885 33 23C33 21.3431 31.6569 20 30 20C29.2316 20 28.5308 20.2889 28 20.7639"
           stroke="#B985CC"
-          stroke-width={2}
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth={2}
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M20 25.2361C19.3863 24.6868 19 23.8885 19 23C19 21.3431 20.3431 20 22 20C22.7684 20 23.4692 20.2889 24 20.7639"
           stroke="#B985CC"
-          stroke-width={2}
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth={2}
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </svg></div>
       </div>
@@ -202,29 +202,29 @@ export default function Home() {
         <path
           d="M29 21L35 18V33L29 36V21Z"
           stroke="#93C8A2"
-          stroke-width={2}
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth={2}
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M23 33L29 36V21L23 18V33Z"
           stroke="#93C8A2"
-          stroke-width={2}
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth={2}
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M17 21L23 18V33L17 36V21Z"
           stroke="#93C8A2"
-          stroke-width={2}
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth={2}
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </svg></div>
     </div>
     
-    <p class=" text-2xl font-semibold text-_bleuMarine">Nos services partenaires pour les étudiants</p>
-    <div class="text-md text-_grisBleu p-3" style={{width: "534px"}}>Kit le nid vous propose un ensemble d’offres avantageuses pour mieux répondre à vos besoins lors de vos études :
+    <p className=" text-2xl font-semibold text-_bleuMarine">Nos services partenaires pour les étudiants</p>
+    <div className="text-md text-_grisBleu p-3" style={{width: "534px"}}>Kit le nid vous propose un ensemble d’offres avantageuses pour mieux répondre à vos besoins lors de vos études :
     <ol>
       <li>
       une location en résidence étudiante
@@ -237,31 +237,31 @@ export default function Home() {
       </li>
     </ol>
      </div>
-    <div class="relative" style={{width: "631px", height: "387.03px"}}>
-        <div class="w-40 h-40 absolute bg-indigo-50  rounded-xl" style={{left: "110.90px", top: "156.36px"}}/>
-        <div class="w-40 h-40 absolute bg-indigo-50  rounded-xl" style={{left: "464.66px", top: "48.79px"}}/>
-        <div class="w-20 h-20 absolute bg-green-50  rounded-xl" style={{left: "382.59px", top: "311.62px"}}/>
-        <div class="w-20 h-20 absolute bg-yellow-100  rounded-xl" style={{left: "353.76px" ,top: "0px"}}/>
-        <div class="w-20 h-20 absolute bg-purple-100  rounded-xl border-purple-100 border-opacity-10" style={{left: "0px", top: "201.83px"}}/>
-        <div class="w-40 h-40 absolute" style={{left: "180.76px" ,top: "220.68px"}}>
-            <div class="flex items-center justify-center flex-1 h-full px-4 py-14 bg-white rounded-xl">
-                <div class="inline-flex flex-col space-y-2 items-center justify-end flex-1 h-full">
-                    <img class="w-28 h-4" src="https://via.placeholder.com/104.2425308227539x17.743410110473633"/>
-                    <div class="w-full h-8">
-                        <div class="flex items-center justify-center flex-1 h-full pl-3 pr-3.5 pt-1.5 pb-1 bg-indigo-600 bg-opacity-10 rounded-lg">
-                            <p class="flex-1 h-full text-sm font-bold text-center text-indigo-600">3 mois offerts</p>
+    <div className="relative" style={{width: "631px", height: "387.03px"}}>
+        <div className="w-40 h-40 absolute bg-indigo-50  rounded-xl" style={{left: "110.90px", top: "156.36px"}}/>
+        <div className="w-40 h-40 absolute bg-indigo-50  rounded-xl" style={{left: "464.66px", top: "48.79px"}}/>
+        <div className="w-20 h-20 absolute bg-green-50  rounded-xl" style={{left: "382.59px", top: "311.62px"}}/>
+        <div className="w-20 h-20 absolute bg-yellow-100  rounded-xl" style={{left: "353.76px" ,top: "0px"}}/>
+        <div className="w-20 h-20 absolute bg-purple-100  rounded-xl border-purple-100 border-opacity-10" style={{left: "0px", top: "201.83px"}}/>
+        <div className="w-40 h-40 absolute" style={{left: "180.76px" ,top: "220.68px"}}>
+            <div className="flex items-center justify-center flex-1 h-full px-4 py-14 bg-white rounded-xl">
+                <div className="inline-flex flex-col space-y-2 items-center justify-end flex-1 h-full">
+                    <img className="w-28 h-4" src="https://via.placeholder.com/104.2425308227539x17.743410110473633"/>
+                    <div className="w-full h-8">
+                        <div className="flex items-center justify-center flex-1 h-full pl-3 pr-3.5 pt-1.5 pb-1 bg-indigo-600 bg-opacity-10 rounded-lg">
+                            <p className="flex-1 h-full text-sm font-bold text-center text-indigo-600">3 mois offerts</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="w-40 h-40 absolute" style={{left: "382.59px", top: "110.90px"}}>
-            <div class="flex items-center justify-center flex-1 h-full px-5 py-10 bg-white rounded-xl">
-                <div class="inline-flex flex-col space-y-0.5 items-center justify-end flex-1 h-full">
-                    <img class="w-full h-1/2" src="https://via.placeholder.com/123.89794158935547x41.50580596923828"/>
-                    <div class="w-3/4 h-10">
-                        <div class="flex items-center justify-center flex-1 h-full px-5 py-1.5 bg-red-500 bg-opacity-10 rounded-xl">
-                            <p class="flex-1 h-full text-base font-bold text-center text-red-500">-15%</p>
+        <div className="w-40 h-40 absolute" style={{left: "382.59px", top: "110.90px"}}>
+            <div className="flex items-center justify-center flex-1 h-full px-5 py-10 bg-white rounded-xl">
+                <div className="inline-flex flex-col space-y-0.5 items-center justify-end flex-1 h-full">
+                    <img className="w-full h-1/2" src="https://via.placeholder.com/123.89794158935547x41.50580596923828"/>
+                    <div className="w-3/4 h-10">
+                        <div className="flex items-center justify-center flex-1 h-full px-5 py-1.5 bg-red-500 bg-opacity-10 rounded-xl">
+                            <p className="flex-1 h-full text-base font-bold text-center text-red-500">-15%</p>
                         </div>
                     </div>
                 </div>
@@ -312,17 +312,17 @@ export default function Home() {
               <path
                 d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"
                 stroke="#3679FF"
-                stroke-width={2}
-                stroke-miterlimit={10}
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth={2}
+                strokeMiterlimi={10}
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
               <path
                 d="M8 12H16"
                 stroke="#3679FF"
-                stroke-width={2}
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth={2}
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </svg>
           </div>
@@ -399,17 +399,17 @@ export default function Home() {
               <path
                 d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"
                 stroke="#C23D3B"
-                stroke-width={2}
-                stroke-miterlimit={10}
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth={2}
+                strokeMiterlimi={10}
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
               <path
                 d="M8 12H16"
                 stroke="#C23D3B"
-                stroke-width={2}
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth={2}
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </svg>
           </div>
@@ -484,17 +484,17 @@ export default function Home() {
           <path
             d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"
             stroke="#3679FF"
-            stroke-width={2}
-            stroke-miterlimit={10}
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeWidth={2}
+            strokeMiterlimi={10}
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
           <path
             d="M8 12H16"
             stroke="#3679FF"
-            stroke-width={2}
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeWidth={2}
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
         </svg>
       </div>
@@ -627,9 +627,9 @@ export default function Home() {
             width={56}
             height={56}
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feflood flood-opacity={0} result="BackgroundImageFix" />
+            <feflood floodOpacity={0} result="BackgroundImageFix" />
             <fecolormatrix
               in="SourceAlpha"
               type="matrix"
@@ -687,8 +687,8 @@ export default function Home() {
             y2="29.2941"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.0434107" stop-color="#81A3F9" />
-            <stop offset={1} stop-color="#3462D8" />
+            <stop offset="0.0434107" stopColor="#81A3F9" />
+            <stop offset={1} stopColor="#3462D8" />
           </lineargradient>
         </defs>
       </svg>
@@ -707,37 +707,37 @@ export default function Home() {
         <path
           d="M34 29C35.6569 29 37 27.6569 37 26C37 24.3431 35.6569 23 34 23C32.3431 23 31 24.3431 31 26C31 27.6569 32.3431 29 34 29Z"
           stroke="url(#paint0_linear_535_5157)"
-          stroke-width={2}
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth={2}
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M25 21.5L31 24.5"
           stroke="url(#paint1_linear_535_5157)"
-          stroke-width={2}
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth={2}
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M22 23C23.6569 23 25 21.6569 25 20C25 18.3431 23.6569 17 22 17C20.3431 17 19 18.3431 19 20C19 21.6569 20.3431 23 22 23Z"
           stroke="url(#paint2_linear_535_5157)"
-          stroke-width={2}
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth={2}
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M31 15.5L25 18.5"
           stroke="url(#paint3_linear_535_5157)"
-          stroke-width={2}
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth={2}
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M34 17C35.6569 17 37 15.6569 37 14C37 12.3431 35.6569 11 34 11C32.3431 11 31 12.3431 31 14C31 15.6569 32.3431 17 34 17Z"
           stroke="url(#paint4_linear_535_5157)"
-          stroke-width={2}
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth={2}
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <defs>
           <filter
@@ -747,9 +747,9 @@ export default function Home() {
             width={56}
             height={56}
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feflood flood-opacity={0} result="BackgroundImageFix" />
+            <feflood floodOpacity={0} result="BackgroundImageFix" />
             <fecolormatrix
               in="SourceAlpha"
               type="matrix"
@@ -807,8 +807,8 @@ export default function Home() {
             y2="29.4853"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.0434107" stop-color="#81A3F9" />
-            <stop offset={1} stop-color="#3462D8" />
+            <stop offset="0.0434107" stopColor="#81A3F9" />
+            <stop offset={1} stopColor="#3462D8" />
           </lineargradient>
           <lineargradient
             id="paint1_linear_535_5157"
@@ -818,8 +818,8 @@ export default function Home() {
             y2="24.7426"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.0434107" stop-color="#81A3F9" />
-            <stop offset={1} stop-color="#3462D8" />
+            <stop offset="0.0434107" stopColor="#81A3F9" />
+            <stop offset={1} stopColor="#3462D8" />
           </lineargradient>
           <lineargradient
             id="paint2_linear_535_5157"
@@ -829,8 +829,8 @@ export default function Home() {
             y2="23.4853"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.0434107" stop-color="#81A3F9" />
-            <stop offset={1} stop-color="#3462D8" />
+            <stop offset="0.0434107" stopColor="#81A3F9" />
+            <stop offset={1} stopColor="#3462D8" />
           </lineargradient>
           <lineargradient
             id="paint3_linear_535_5157"
@@ -840,8 +840,8 @@ export default function Home() {
             y2="18.7426"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.0434107" stop-color="#81A3F9" />
-            <stop offset={1} stop-color="#3462D8" />
+            <stop offset="0.0434107" stopColor="#81A3F9" />
+            <stop offset={1} stopColor="#3462D8" />
           </lineargradient>
           <lineargradient
             id="paint4_linear_535_5157"
@@ -851,8 +851,8 @@ export default function Home() {
             y2="17.4853"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.0434107" stop-color="#81A3F9" />
-            <stop offset={1} stop-color="#3462D8" />
+            <stop offset="0.0434107" stopColor="#81A3F9" />
+            <stop offset={1} stopColor="#3462D8" />
           </lineargradient>
         </defs>
       </svg>
@@ -880,9 +880,9 @@ export default function Home() {
             width={56}
             height={56}
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feflood flood-opacity={0} result="BackgroundImageFix" />
+            <feflood floodOpacity={0} result="BackgroundImageFix" />
             <fecolormatrix
               in="SourceAlpha"
               type="matrix"
@@ -940,8 +940,8 @@ export default function Home() {
             y2="28.1324"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.0434107" stop-color="#81A3F9" />
-            <stop offset={1} stop-color="#3462D8" />
+            <stop offset="0.0434107" stopColor="#81A3F9" />
+            <stop offset={1} stopColor="#3462D8" />
           </lineargradient>
         </defs>
       </svg>
@@ -1020,8 +1020,8 @@ export default function Home() {
               y2="38.125"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#C399DB" />
-              <stop offset={1} stop-color="#5882F7" />
+              <stop stopColor="#C399DB" />
+              <stop offset={1} stopColor="#5882F7" />
             </lineargradient>
           </defs>
         </svg>
@@ -1110,17 +1110,17 @@ export default function Home() {
             <path
               d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"
               stroke="#3679FF"
-              stroke-width={2}
-              stroke-miterlimit={10}
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth={2}
+              strokeMiterlimi={10}
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
             <path
               d="M8 12H16"
               stroke="#3679FF"
-              stroke-width={2}
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth={2}
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
           </svg>
         </div>
@@ -1383,24 +1383,24 @@ export default function Home() {
          <path
            d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"
            stroke="#3679FF"
-           stroke-width={2}
-           stroke-miterlimit={10}
-           stroke-linecap="round"
-           stroke-linejoin="round"
+           strokeWidth={2}
+           strokeMiterlimi={10}
+           strokeLinecap="round"
+           strokeLinejoin="round"
          />
          <path
            d="M8 12H16"
            stroke="#3679FF"
-           stroke-width={2}
-           stroke-linecap="round"
-           stroke-linejoin="round"
+           strokeWidth={2}
+           strokeLinecap="round"
+           strokeLinejoin="round"
          />
          <path
            d="M12 16L12 8"
            stroke="#3679FF"
-           stroke-width={2}
-           stroke-linecap="round"
-           stroke-linejoin="round"
+           strokeWidth={2}
+           strokeLinecap="round"
+           strokeLinejoin="round"
          />
        </svg>
      </div>
@@ -1448,24 +1448,24 @@ export default function Home() {
          <path
            d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"
            stroke="#3679FF"
-           stroke-width={2}
-           stroke-miterlimit={10}
-           stroke-linecap="round"
-           stroke-linejoin="round"
+           strokeWidth={2}
+           strokeMiterlimi={10}
+           strokeLinecap="round"
+           strokeLinejoin="round"
          />
          <path
            d="M8 12H16"
            stroke="#3679FF"
-           stroke-width={2}
-           stroke-linecap="round"
-           stroke-linejoin="round"
+           strokeWidth={2}
+           strokeLinecap="round"
+           strokeLinejoin="round"
          />
          <path
            d="M12 16L12 8"
            stroke="#3679FF"
-           stroke-width={2}
-           stroke-linecap="round"
-           stroke-linejoin="round"
+           strokeWidth={2}
+           strokeLinecap="round"
+           strokeLinejoin="round"
          />
        </svg>
      </div>
@@ -1566,7 +1566,7 @@ export default function Home() {
          <div>
            <img src='./static/img/logo.png'/>
          </div>
-           <div class='flex items-center border-2 rounded-3xl py-2 shadow-sm bg-white'>
+           <div className='flex items-center border-2 rounded-3xl py-2 shadow-sm bg-white'>
              <input type='text' placeholder='Recherche'
              className='pl-5 bg-transparent outline-none flex-grow'/>
              <svg
@@ -1575,22 +1575,22 @@ export default function Home() {
                    viewBox="0 0 23 23"
                    fill="none"
                    xmlns="http://www.w3.org/2000/svg"
-                   class=" w-8 h-8 p-2 cursor-pointer inline-flex mx-2"
+                   className=" w-8 h-8 p-2 cursor-pointer inline-flex mx-2"
                    style={{background:"linear-gradient(180deg, #81A3F9 -0.06%, #3462D8 108.09%)", borderRadius:"42px"}}
                    preserveAspectRatio="xMidYMid meet">
                      <path
                        d="M9.58333 16.2917C13.2882 16.2917 16.2917 13.2882 16.2917 9.58333C16.2917 5.87842 13.2882 2.875 9.58333 2.875C5.87842 2.875 2.875 5.87842 2.875 9.58333C2.875 13.2882 5.87842 16.2917 9.58333 16.2917Z"
                        stroke="white"
-                       stroke-width="2"
-                       stroke-linecap="round"
-                       stroke-linejoin="round"
+                       strokeWidth="2"
+                       strokeLinecap="round"
+                       strokeLinejoin="round"
                      ></path>
                      <path
                        d="M14.375 14.375L20.125 20.125"
                        stroke="white"
-                       stroke-width="2"
-                       stroke-linecap="round"
-                       stroke-linejoin="round"
+                       strokeWidth="2"
+                       strokeLinecap="round"
+                       strokeLinejoin="round"
                      ></path>
                </svg>
            </div>
@@ -1613,7 +1613,7 @@ export default function Home() {
          <div>
            <img src='./static/img/logo.png'/>
          </div>
-           <div class='flex items-center border-2 rounded-xl py-2 shadow-sm bg-white border-_rougeStudea'>
+           <div className='flex items-center border-2 rounded-xl py-2 shadow-sm bg-white border-_rougeStudea'>
              <input type='text' placeholder='Ville'
              className='pl-5 bg-transparent outline-none flex-grow'/>
              <svg
@@ -1622,21 +1622,21 @@ export default function Home() {
                    viewBox="0 0 23 23"
                    fill="none"
                    xmlns="http://www.w3.org/2000/svg"
-                   class=" w-8 h-8 p-2 cursor-pointer inline-flex mx-2 bg-_rougeStudea rounded-lg"
+                   className=" w-8 h-8 p-2 cursor-pointer inline-flex mx-2 bg-_rougeStudea rounded-lg"
                    preserveAspectRatio="xMidYMid meet">
                      <path
                        d="M9.58333 16.2917C13.2882 16.2917 16.2917 13.2882 16.2917 9.58333C16.2917 5.87842 13.2882 2.875 9.58333 2.875C5.87842 2.875 2.875 5.87842 2.875 9.58333C2.875 13.2882 5.87842 16.2917 9.58333 16.2917Z"
                        stroke="white"
-                       stroke-width="2"
-                       stroke-linecap="round"
-                       stroke-linejoin="round"
+                       strokeWidth="2"
+                       strokeLinecap="round"
+                       strokeLinejoin="round"
                      ></path>
                      <path
                        d="M14.375 14.375L20.125 20.125"
                        stroke="white"
-                       stroke-width="2"
-                       stroke-linecap="round"
-                       stroke-linejoin="round"
+                       strokeWidth="2"
+                       strokeLinecap="round"
+                       strokeLinejoin="round"
                      ></path>
                </svg>
            </div>
@@ -1656,23 +1656,23 @@ export default function Home() {
                           <path
                             d="M15 6L21 3V18L15 21V6Z"
                             stroke="white"
-                            stroke-width={2}
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeWidth={2}
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
                           />
                           <path
                             d="M9 18L15 21V6L9 3V18Z"
                             stroke="white"
-                            stroke-width={2}
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeWidth={2}
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
                           />
                           <path
                             d="M3 6L9 3V18L3 21V6Z"
                             stroke="white"
-                            stroke-width={2}
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeWidth={2}
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
                           />
                         </svg></div>
                        <div>
