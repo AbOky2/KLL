@@ -1430,9 +1430,9 @@ connexion/inscription
           width={85}
           height={85}
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feflood flood-opacity={0} result="BackgroundImageFix" />
+          <feflood floodOpacity={0} result="BackgroundImageFix" />
           <fecolormatrix
             in="SourceAlpha"
             type="matrix"
@@ -1671,7 +1671,7 @@ connexion/inscription
             <stop stopColor="#E0E8B7" />
             <stop offset="0.444662" stopColor="#FB8A2E" />
             <stop offset="0.71474" stopColor="#E2425C" />
-            <stop offset={1} stopColor="#E2425C" stop-opacity={0} />
+            <stop offset={1} stopColor="#E2425C" stopOpacity={0} />
           </radialgradient>
           <radialgradient
             id="paint2_radial_1654_4074"
@@ -1683,7 +1683,7 @@ connexion/inscription
           >
             <stop offset="0.156701" stopColor="#406ADC" />
             <stop offset="0.467799" stopColor="#6A45BE" />
-            <stop offset={1} stopColor="#6A45BE" stop-opacity={0} />
+            <stop offset={1} stopColor="#6A45BE" stopOpacity={0} />
           </radialgradient>
         </defs>
       </svg>
@@ -1701,7 +1701,7 @@ connexion/inscription
         className="flex-grow-0 flex-shrink-0 w-6 h-6 relative"
         preserveAspectRatio="none"
       >
-        <g clip-path="url(#clip0_1654_4082)">
+        <g clipPath="url(#clip0_1654_4082)">
           <path
             d="M22.7855 12.2537C22.7855 11.506 22.7249 10.7542 22.5956 10.0186H12.22V14.2545H18.1616C17.915 15.6206 17.1228 16.8291 15.9628 17.5971V20.3456H19.5075C21.5891 18.4297 22.7855 15.6004 22.7855 12.2537Z"
             fill="#4285F4"
@@ -1739,7 +1739,7 @@ connexion/inscription
         className="flex-grow-0 flex-shrink-0 w-6 h-6 relative"
         preserveAspectRatio="none"
       >
-        <g clip-path="url(#clip0_1654_4090)">
+        <g clipPath="url(#clip0_1654_4090)">
           <path
             d="M20.976 18.1447C20.6433 18.9133 20.2494 19.6208 19.7932 20.2713C19.1712 21.158 18.662 21.7719 18.2695 22.1127C17.6611 22.6722 17.0093 22.9587 16.3113 22.975C15.8102 22.975 15.2059 22.8324 14.5025 22.5432C13.7967 22.2553 13.1481 22.1127 12.5551 22.1127C11.9332 22.1127 11.2661 22.2553 10.5526 22.5432C9.83807 22.8324 9.26242 22.9832 8.8223 22.9981C8.15295 23.0266 7.48577 22.732 6.81982 22.1127C6.39477 21.742 5.86312 21.1064 5.22623 20.2061C4.54289 19.2446 3.98109 18.1297 3.54097 16.8587C3.06962 15.4857 2.83333 14.1563 2.83333 12.8692C2.83333 11.3948 3.15191 10.1232 3.79003 9.0576C4.29153 8.20166 4.9587 7.52647 5.79373 7.03081C6.62875 6.53514 7.53099 6.28256 8.50263 6.2664C9.03428 6.2664 9.73147 6.43085 10.5979 6.75405C11.4618 7.07834 12.0165 7.24279 12.2598 7.24279C12.4416 7.24279 13.0578 7.0505 14.1025 6.66714C15.0905 6.31162 15.9243 6.16441 16.6073 6.2224C18.4583 6.37178 19.8488 7.10142 20.7736 8.41595C19.1182 9.41896 18.2994 10.8238 18.3157 12.626C18.3306 14.0297 18.8399 15.1979 19.8407 16.1254C20.2943 16.5558 20.8008 16.8885 21.3643 17.1248C21.2421 17.4793 21.1131 17.8188 20.976 18.1447ZM16.7309 1.44013C16.7309 2.54038 16.3289 3.56768 15.5277 4.51854C14.5609 5.64892 13.3914 6.30211 12.1231 6.19904C12.107 6.06705 12.0976 5.92813 12.0976 5.78214C12.0976 4.7259 12.5574 3.59552 13.374 2.67127C13.7816 2.20331 14.3001 1.81421 14.9289 1.50381C15.5563 1.19805 16.1497 1.02896 16.7078 1C16.7241 1.14709 16.7309 1.29418 16.7309 1.44011V1.44013Z"
             fill="black"
@@ -2060,9 +2060,9 @@ Page connecter
           width={85}
           height={85}
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feflood flood-opacity={0} result="BackgroundImageFix" />
+          <feflood floodOpacity={0} result="BackgroundImageFix" />
           <fecolormatrix
             in="SourceAlpha"
             type="matrix"
@@ -3171,7 +3171,7 @@ Bien Studea
           d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"
           stroke="#C23D3B"
           strokeWidth={2}
-          stroke-miterlimit={10}
+          strokeMiterlimit={10}
           strokeLinecap="round"
           strokeLinejoin="round"
         />
@@ -3586,9 +3586,9 @@ Recherche bien
           width={42}
           height={43}
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feflood flood-opacity={0} result="BackgroundImageFix" />
+          <feflood floodOpacity={0} result="BackgroundImageFix" />
           <fecolormatrix
             in="SourceAlpha"
             type="matrix"
@@ -3643,9 +3643,9 @@ Recherche bien
           width={42}
           height={43}
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feflood flood-opacity={0} result="BackgroundImageFix" />
+          <feflood floodOpacity={0} result="BackgroundImageFix" />
           <fecolormatrix
             in="SourceAlpha"
             type="matrix"
@@ -4000,9 +4000,9 @@ Connexion Mobile
         width={56}
         height={56}
         filterUnits="userSpaceOnUse"
-        color-interpolation-filters="sRGB"
+        colorInterpolationFilters="sRGB"
       >
-        <feflood flood-opacity={0} result="BackgroundImageFix" />
+        <feflood floodOpacity={0} result="BackgroundImageFix" />
         <fecolormatrix
           in="SourceAlpha"
           type="matrix"
@@ -4120,9 +4120,9 @@ Connexion Mobile
         width={56}
         height={56}
         filterUnits="userSpaceOnUse"
-        color-interpolation-filters="sRGB"
+        colorInterpolationFilters="sRGB"
       >
-        <feflood flood-opacity={0} result="BackgroundImageFix" />
+        <feflood floodOpacity={0} result="BackgroundImageFix" />
         <fecolormatrix
           in="SourceAlpha"
           type="matrix"
@@ -4253,9 +4253,9 @@ Connexion Mobile
         width={56}
         height={56}
         filterUnits="userSpaceOnUse"
-        color-interpolation-filters="sRGB"
+        colorInterpolationFilters="sRGB"
       >
-        <feflood flood-opacity={0} result="BackgroundImageFix" />
+        <feflood floodOpacity={0} result="BackgroundImageFix" />
         <fecolormatrix
           in="SourceAlpha"
           type="matrix"
@@ -4616,7 +4616,7 @@ Connexion Mobile
             <stop stopColor="#E0E8B7" />
             <stop offset="0.444662" stopColor="#FB8A2E" />
             <stop offset="0.71474" stopColor="#E2425C" />
-            <stop offset={1} stopColor="#E2425C" stop-opacity={0} />
+            <stop offset={1} stopColor="#E2425C" stopOpacity={0} />
           </radialgradient>
           <radialgradient
             id="paint2_radial_1654_4032"
@@ -4628,7 +4628,7 @@ Connexion Mobile
           >
             <stop offset="0.156701" stopColor="#406ADC" />
             <stop offset="0.467799" stopColor="#6A45BE" />
-            <stop offset={1} stopColor="#6A45BE" stop-opacity={0} />
+            <stop offset={1} stopColor="#6A45BE" stopOpacity={0} />
           </radialgradient>
         </defs>
       </svg>
@@ -4646,7 +4646,7 @@ Connexion Mobile
         className="flex-grow-0 flex-shrink-0 w-6 h-6 relative"
         preserveAspectRatio="none"
       >
-        <g clip-path="url(#clip0_1654_4040)">
+        <g clipPath="url(#clip0_1654_4040)">
           <path
             d="M22.7855 12.2535C22.7855 11.5057 22.7249 10.7539 22.5955 10.0183H12.22V14.2542H18.1616C17.915 15.6204 17.1228 16.8289 15.9628 17.5969V20.3453H19.5075C21.5891 18.4295 22.7855 15.6002 22.7855 12.2535Z"
             fill="#4285F4"
@@ -4684,7 +4684,7 @@ Connexion Mobile
         className="flex-grow-0 flex-shrink-0 w-6 h-6 relative"
         preserveAspectRatio="none"
       >
-        <g clip-path="url(#clip0_1654_4048)">
+        <g clipPath="url(#clip0_1654_4048)">
           <path
             d="M20.976 18.1449C20.6433 18.9135 20.2495 19.6211 19.7932 20.2715C19.1712 21.1583 18.662 21.7721 18.2695 22.113C17.6612 22.6724 17.0093 22.959 16.3113 22.9753C15.8102 22.9753 15.2059 22.8327 14.5025 22.5434C13.7968 22.2555 13.1482 22.113 12.5552 22.113C11.9332 22.113 11.2662 22.2555 10.5527 22.5434C9.83811 22.8327 9.26246 22.9834 8.82234 22.9984C8.15299 23.0269 7.48582 22.7322 6.81986 22.113C6.39482 21.7422 5.86317 21.1067 5.22627 20.2063C4.54294 19.2449 3.98114 18.13 3.54102 16.8589C3.06966 15.486 2.83337 14.1565 2.83337 12.8694C2.83337 11.3951 3.15196 10.1235 3.79007 9.05784C4.29157 8.20191 4.95875 7.52672 5.79377 7.03105C6.6288 6.53539 7.53104 6.2828 8.50267 6.26664C9.03432 6.26664 9.73151 6.4311 10.5979 6.7543C11.4619 7.07858 12.0166 7.24303 12.2598 7.24303C12.4416 7.24303 13.0579 7.05074 14.1026 6.66738C15.0905 6.31186 15.9243 6.16466 16.6074 6.22264C18.4583 6.37202 19.8489 7.10167 20.7737 8.4162C19.1183 9.4192 18.2994 10.824 18.3157 12.6262C18.3307 14.03 18.8399 15.1981 19.8407 16.1256C20.2943 16.5561 20.8008 16.8888 21.3644 17.1251C21.2422 17.4795 21.1132 17.819 20.976 18.1449ZM16.731 1.44037C16.731 2.54062 16.329 3.56792 15.5278 4.51878C14.5609 5.64917 13.3914 6.30236 12.1232 6.19929C12.107 6.06729 12.0977 5.92837 12.0977 5.78239C12.0977 4.72615 12.5575 3.59576 13.374 2.67152C13.7817 2.20356 14.3002 1.81445 14.9289 1.50406C15.5563 1.19829 16.1497 1.0292 16.7079 1.00024C16.7242 1.14733 16.731 1.29443 16.731 1.44036V1.44037Z"
             fill="black"
