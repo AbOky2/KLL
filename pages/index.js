@@ -6245,14 +6245,14 @@ Parcours inscription Mobile
         <div className="flex justify-center items-start w-2.5 h-2.5 absolute left-px top-px overflow-hidden gap-1 p-4 rounded-sm bg-[#3679ff] border-2 border-[#3679ff]" />
       </div>
       <p className="flex-grow-0 flex-shrink-0 w-60 text-xs text-left text-[#43434a]">
-        En envoyant ma demande, j'accepte que le groupe Nexity exploite mes données personnelles
+        En envoyant ma demande, j&apos; accepte que le groupe Nexity exploite mes données personnelles
         dans le cadre de ma demande de contact et de la relation commerciale qui pourrait en
         découler.
       </p>
     </div>
     <p className="w-[295px] h-28 absolute left-6 top-[388px] text-xs text-left text-[#6976a0]">
       <span className="w-[295px] h-28 text-xs font-semibold text-left text-[#6976a0]">
-        Vous avez la possibilité de modifier votre consentement, d'exercer vos droits pour accéder,
+        Vous avez la possibilité de modifier votre consentement, d&apos; exercer vos droits pour accéder,
         rectifier, effacer vos données, limiter leurs traitements, vous y opposer et demander la
         portabilité de celle-ci. Pour cela vous pouvez consulter sur ce lien notre
       </span>
